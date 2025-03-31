@@ -1,0 +1,16 @@
+name: KittyBlock
+version: '1.0.0'
+main: com.kittyscan.kittyblockspigot.KittyBlockSpigot
+depend:
+  - ProtocolLib
+author: Lilly Schramm
+
+description: Obfuscates the server query data towards known server scanners.
+
+load: STARTUP
+database: false
+api-version: "1.12"
+
+folia-supported: true
+
+website: https://kittyscan.com

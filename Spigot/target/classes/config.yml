@@ -1,0 +1,6 @@
+blocklists:
+  - url: https://raw.githubusercontent.com/LillySchramm/KittyScanBlocklist/refs/heads/main/ips-24.txt
+    subnet: 24
+    refetchMinutes: 60
+debug: false
+reportIntervalMinutes: 60
