@@ -1,0 +1,24 @@
+config_version: 1
+change_directory: changes
+release_directory: releases
+change_types:
+    - id: 1
+      name: Added
+      description: Added or extended a feature
+    - id: 2
+      name: Changed
+      description: An existing feature changed
+    - id: 3
+      name: Removed
+      description: An existing feature was removed or dismantled
+    - id: 4
+      name: Deprecated
+      description: An existing feature was deprecated or marked for removal
+    - id: 5
+      name: Fixed
+      description: Fixed a bug
+    - id: 6
+      name: Documented
+      description: Extended or corrected the documentation
+changelog_file: CHANGELOG.md
+version_prefix: v
