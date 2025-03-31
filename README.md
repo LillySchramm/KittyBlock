@@ -8,6 +8,8 @@ Reducing the amount of data known server scanners can gather.
 - **Preconfigured**: KittyBlock is preconfigured to use the [KittyScan Blocklist](https://github.com/LillySchramm/KittyScanBlocklist) by default, which is a blocklist, gathered by the KittyScan Project, of known scanners and bots. You can add your own blocklist or use the default one.
 - **Wide Compatibility**: KittyBlock is compatible with all Minecraft Spigot/Paper versions from `1.12.0` to `1.21.4`.
 
+> WARNING: KittyBlock is not a security plugin and should not be used as a replacement for a firewall or other security measures. It is only meant to reduce the potential amount of data known server scanners can gather. It does not protect your server from attacks or other malicious activity. Use a whitelist, use online-mode, do backups. All blocklists will have missing entries and false positives.
+
 ### Installation / Setup
 
 #### Spigot/Paper
